@@ -1,4 +1,3 @@
-# backtest/metrics.py
 """
 Cálculo de métricas de performance e benchmark (CDI).
 """
@@ -309,4 +308,5 @@ if __name__ == "__main__":
     metrics = calculate_metrics(portfolio_history, cdi_aligned)
     
     # Imprime
+
     print_metrics(metrics)
