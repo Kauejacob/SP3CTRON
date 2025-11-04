@@ -1,4 +1,3 @@
-# backtest/portfolio.py
 """
 Gestão de portfólio para o sistema de backtest.
 Controla posições, execução de trades, cálculo de P&L.
@@ -556,4 +555,5 @@ if __name__ == "__main__":
         if isinstance(value, float):
             print(f"  {key}: {value:,.2f}")
         else:
+
             print(f"  {key}: {value}")
